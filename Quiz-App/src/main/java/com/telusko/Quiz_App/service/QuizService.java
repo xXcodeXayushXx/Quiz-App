@@ -22,8 +22,7 @@ public class QuizService {
     QuizRepository quizRepository;
     @Autowired
     QuestionRepository questionRepository;
-//    @Autowired
-//    ResponseRepository responseRepository;
+
 
     public ResponseEntity<Quiz> createQuiz(String category, int numberOfQuestions, String title) {
         try {
